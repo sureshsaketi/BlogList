@@ -1,0 +1,32 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.blog-list-container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.each-post {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.title-published-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+title {
+  font-size: 18px;
+  color: #12022f;
+}
+hr {
+  width: 99%;
+}
